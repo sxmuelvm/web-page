@@ -1,50 +1,121 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Skates</title>
+    <title>Skate Store</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <main class="contenedor">
+    <header class="header">
+        <div class="logo">
+            SKATE<span>STORE</span>
+        </div>
+    </header>
 
-        <h1>Skates</h1>
 
-        <p class="descripcion">
-            Descubre nuestra colección de skates.
-            Diseñados para disfrutar de cada recorrido.
-        </p>
+    <main>
 
-        <section class="skates">
+        <!-- SECCIÓN PRINCIPAL -->
+        <section class="hero">
 
-            <div class="skate">
-                <img src="images/skate1.jpg" alt="Skate negro">
+            <div class="hero-text">
+                <p class="subtitle">LIBERTAD SOBRE RUEDAS</p>
 
-                <h2>Skate Street</h2>
+                <h1>
+                    ENCUENTRA TU<br>
+                    <span>SKATE IDEAL</span>
+                </h1>
 
                 <p>
-                    Un skate ideal para recorrer la ciudad
-                    y practicar tus trucos.
+                    Descubre nuestra selección de skates diseñados
+                    para disfrutar cada recorrido.
                 </p>
+
+                <a href="#skates" class="button">
+                    Ver skates
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTOS -->
+        <section class="products">
+
+            <div class="section-title">
+                <p>COLECCIÓN</p>
+                <h2>Nuestros Skates</h2>
             </div>
 
 
-            <div class="skate">
-                <img src="images/skate2.jpg" alt="Skate azul">
+            <div class="cards">
 
-                <h2>Skate Ocean</h2>
+                <!-- SKATE 1 -->
+                <article class="card">
 
-                <p>
-                    Diseño moderno y resistente para
-                    disfrutar de cada recorrido.
-                </p>
+                    <div class="image-container">
+                        <img src="images/skate1.jpg" alt="Skate urbano negro">
+                    </div>
+
+                    <div class="card-content">
+
+                        <p class="category">URBANO</p>
+
+                        <h3>Street Black</h3>
+
+                        <p>
+                            Skate resistente y ligero,
+                            perfecto para recorrer la ciudad.
+                        </p>
+
+                        <div class="card-bottom">
+                            <strong>$89.99</strong>
+
+                            <button>
+                                Comprar
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SKATE 2 -->
+                <article class="card">
+
+                    <div class="image-container">
+                        <img src="images/skate2.jpg" alt="Skate moderno azul">
+                    </div>
+
+                    <div class="card-content">
+
+                        <p class="category">PRO</p>
+
+                        <h3>Ocean Rider</h3>
+
+                        <p>
+                            Tabla profesional con excelente
+                            estabilidad y control.
+                        </p>
+
+                        <div class="card-bottom">
+                            <strong>$119.99</strong>
+
+                            <button>
+                                Comprar
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
             </div>
 
         </section>
@@ -52,6 +123,4 @@
     </main>
 
 </body>
-
 </html>
-
